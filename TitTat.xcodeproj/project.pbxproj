@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AE168141E56F03E41524BF7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3469D27BCA02EF90E25BF3 /* libPods.a */; };
+		9603E1671B8464D900C5D662 /* ScoreBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9603E1661B8464D900C5D662 /* ScoreBoardVC.swift */; };
+		9603E16B1B8676EB00C5D662 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9603E16A1B8676EB00C5D662 /* ProfileViewController.swift */; };
+		9603E16D1B868E2000C5D662 /* TitTatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9603E16C1B868E2000C5D662 /* TitTatViewController.swift */; };
+		9603E1701B86A2FC00C5D662 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9603E16F1B86A2FC00C5D662 /* ProfileTableViewCell.swift */; };
 		9628ED081B818F1600C23B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628ED071B818F1600C23B0F /* AppDelegate.swift */; };
 		9628ED0A1B818F1600C23B0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628ED091B818F1600C23B0F /* ViewController.swift */; };
 		9628ED0D1B818F1600C23B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9628ED0B1B818F1600C23B0F /* Main.storyboard */; };
 		9628ED0F1B818F1600C23B0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9628ED0E1B818F1600C23B0F /* Images.xcassets */; };
 		9628ED121B818F1600C23B0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9628ED101B818F1600C23B0F /* LaunchScreen.xib */; };
 		9628ED1E1B818F1700C23B0F /* TitTatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628ED1D1B818F1700C23B0F /* TitTatTests.swift */; };
+		9628ED281B81901D00C23B0F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED271B81901D00C23B0F /* Parse.framework */; };
+		9628ED2A1B81902800C23B0F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED291B81902700C23B0F /* Bolts.framework */; };
+		9628ED2C1B81907300C23B0F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED2B1B81907300C23B0F /* AudioToolbox.framework */; };
+		9628ED2E1B81907C00C23B0F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED2D1B81907C00C23B0F /* CFNetwork.framework */; };
+		9628ED301B81908500C23B0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED2F1B81908500C23B0F /* CoreGraphics.framework */; };
+		9628ED321B81908F00C23B0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED311B81908F00C23B0F /* CoreLocation.framework */; };
+		9628ED341B81909800C23B0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED331B81909800C23B0F /* QuartzCore.framework */; };
+		9628ED361B8190A100C23B0F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED351B8190A100C23B0F /* Security.framework */; };
+		9628ED381B8190AB00C23B0F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED371B8190AB00C23B0F /* StoreKit.framework */; };
+		9628ED3A1B8190B400C23B0F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED391B8190B400C23B0F /* SystemConfiguration.framework */; };
+		9628ED3C1B8190C100C23B0F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED3B1B8190C100C23B0F /* libz.dylib */; };
+		9628ED3E1B8190CA00C23B0F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9628ED3D1B8190CA00C23B0F /* libsqlite3.dylib */; };
+		9628ED401B81929B00C23B0F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628ED3F1B81929B00C23B0F /* User.swift */; };
+		9628ED421B819AC800C23B0F /* Tat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628ED411B819AC800C23B0F /* Tat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B4699474C876A3DF6C9988B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7ECEE12D5C2075C4275144AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9603E1661B8464D900C5D662 /* ScoreBoardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreBoardVC.swift; sourceTree = "<group>"; };
+		9603E16A1B8676EB00C5D662 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9603E16C1B868E2000C5D662 /* TitTatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitTatViewController.swift; sourceTree = "<group>"; };
+		9603E16F1B86A2FC00C5D662 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		9628ED021B818F1600C23B0F /* TitTat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitTat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9628ED061B818F1600C23B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9628ED071B818F1600C23B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +61,22 @@
 		9628ED171B818F1700C23B0F /* TitTatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitTatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9628ED1C1B818F1700C23B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9628ED1D1B818F1700C23B0F /* TitTatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitTatTests.swift; sourceTree = "<group>"; };
+		9628ED271B81901D00C23B0F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		9628ED291B81902700C23B0F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9628ED2B1B81907300C23B0F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9628ED2D1B81907C00C23B0F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9628ED2F1B81908500C23B0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9628ED311B81908F00C23B0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9628ED331B81909800C23B0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9628ED351B8190A100C23B0F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9628ED371B8190AB00C23B0F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9628ED391B8190B400C23B0F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9628ED3B1B8190C100C23B0F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9628ED3D1B8190CA00C23B0F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9628ED3F1B81929B00C23B0F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9628ED411B819AC800C23B0F /* Tat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tat.swift; sourceTree = "<group>"; };
+		967C6B8E1B8BB7E900FC976F /* Mixpanel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED3469D27BCA02EF90E25BF3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +84,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9628ED3E1B8190CA00C23B0F /* libsqlite3.dylib in Frameworks */,
+				9628ED3C1B8190C100C23B0F /* libz.dylib in Frameworks */,
+				9628ED3A1B8190B400C23B0F /* SystemConfiguration.framework in Frameworks */,
+				9628ED381B8190AB00C23B0F /* StoreKit.framework in Frameworks */,
+				9628ED361B8190A100C23B0F /* Security.framework in Frameworks */,
+				9628ED341B81909800C23B0F /* QuartzCore.framework in Frameworks */,
+				9628ED321B81908F00C23B0F /* CoreLocation.framework in Frameworks */,
+				9628ED301B81908500C23B0F /* CoreGraphics.framework in Frameworks */,
+				9628ED2E1B81907C00C23B0F /* CFNetwork.framework in Frameworks */,
+				9628ED2C1B81907300C23B0F /* AudioToolbox.framework in Frameworks */,
+				9628ED281B81901D00C23B0F /* Parse.framework in Frameworks */,
+				9628ED2A1B81902800C23B0F /* Bolts.framework in Frameworks */,
+				1AE168141E56F03E41524BF7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +110,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BB71F492C27190EF23F16A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED3469D27BCA02EF90E25BF3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9603E16E1B868E3100C5D662 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				9628ED411B819AC800C23B0F /* Tat.swift */,
+				9628ED3F1B81929B00C23B0F /* User.swift */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
 		9628ECF91B818F1600C23B0F = {
 			isa = PBXGroup;
 			children = (
+				9628ED3D1B8190CA00C23B0F /* libsqlite3.dylib */,
+				9628ED3B1B8190C100C23B0F /* libz.dylib */,
+				9628ED391B8190B400C23B0F /* SystemConfiguration.framework */,
+				9628ED371B8190AB00C23B0F /* StoreKit.framework */,
+				9628ED351B8190A100C23B0F /* Security.framework */,
+				9628ED331B81909800C23B0F /* QuartzCore.framework */,
+				9628ED311B81908F00C23B0F /* CoreLocation.framework */,
+				9628ED2F1B81908500C23B0F /* CoreGraphics.framework */,
+				9628ED2D1B81907C00C23B0F /* CFNetwork.framework */,
+				9628ED2B1B81907300C23B0F /* AudioToolbox.framework */,
+				9628ED291B81902700C23B0F /* Bolts.framework */,
+				9628ED271B81901D00C23B0F /* Parse.framework */,
 				9628ED041B818F1600C23B0F /* TitTat */,
 				9628ED1A1B818F1700C23B0F /* TitTatTests */,
 				9628ED031B818F1600C23B0F /* Products */,
+				CB5E23F1BE099050E9BFAD78 /* Pods */,
+				0BB71F492C27190EF23F16A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +164,13 @@
 			children = (
 				9628ED071B818F1600C23B0F /* AppDelegate.swift */,
 				9628ED091B818F1600C23B0F /* ViewController.swift */,
+				9603E16E1B868E3100C5D662 /* Subclasses */,
+				9603E16C1B868E2000C5D662 /* TitTatViewController.swift */,
+				9603E16F1B86A2FC00C5D662 /* ProfileTableViewCell.swift */,
 				9628ED0B1B818F1600C23B0F /* Main.storyboard */,
+				9603E16A1B8676EB00C5D662 /* ProfileViewController.swift */,
+				967C6B8E1B8BB7E900FC976F /* Mixpanel-Bridging-Header.h */,
+				9603E1661B8464D900C5D662 /* ScoreBoardVC.swift */,
 				9628ED0E1B818F1600C23B0F /* Images.xcassets */,
 				9628ED101B818F1600C23B0F /* LaunchScreen.xib */,
 				9628ED051B818F1600C23B0F /* Supporting Files */,
@@ -112,6 +203,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CB5E23F1BE099050E9BFAD78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B4699474C876A3DF6C9988B /* Pods.debug.xcconfig */,
+				7ECEE12D5C2075C4275144AA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9628ED211B818F1700C23B0F /* Build configuration list for PBXNativeTarget "TitTat" */;
 			buildPhases = (
+				5DAC1ECE987D5FC51E4CC492 /* Check Pods Manifest.lock */,
 				9628ECFE1B818F1600C23B0F /* Sources */,
 				9628ECFF1B818F1600C23B0F /* Frameworks */,
 				9628ED001B818F1600C23B0F /* Resources */,
+				49B03CF88C06DC0941309B56 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +309,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49B03CF88C06DC0941309B56 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DAC1ECE987D5FC51E4CC492 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9628ECFE1B818F1600C23B0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9603E16B1B8676EB00C5D662 /* ProfileViewController.swift in Sources */,
+				9603E1701B86A2FC00C5D662 /* ProfileTableViewCell.swift in Sources */,
 				9628ED0A1B818F1600C23B0F /* ViewController.swift in Sources */,
+				9603E1671B8464D900C5D662 /* ScoreBoardVC.swift in Sources */,
+				9628ED421B819AC800C23B0F /* Tat.swift in Sources */,
 				9628ED081B818F1600C23B0F /* AppDelegate.swift in Sources */,
+				9628ED401B81929B00C23B0F /* User.swift in Sources */,
+				9603E16D1B868E2000C5D662 /* TitTatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +481,33 @@
 		};
 		9628ED221B818F1700C23B0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4699474C876A3DF6C9988B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TitTat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ThomasGibbons/Desktop/XCode_Projects/Personal/TitTat/TitTat/Mixpanel-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		9628ED231B818F1700C23B0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECEE12D5C2075C4275144AA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TitTat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ThomasGibbons/Desktop/XCode_Projects/Personal/TitTat/TitTat/Mixpanel-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +564,7 @@
 				9628ED231B818F1700C23B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9628ED241B818F1700C23B0F /* Build configuration list for PBXNativeTarget "TitTatTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +573,7 @@
 				9628ED261B818F1700C23B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

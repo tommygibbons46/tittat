@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Parse
+import Bolts
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        Parse.enableLocalDatastore()
+        
+        // Initialize Parse.
+        Parse.setApplicationId("fUggLC8t1wdtfqKoU5w4JKh38PGYnPL0puT2llPu",
+            clientKey: "qbv0W26bIIDEGyFdwcRorDm66EK7RHXFy6peVdOD")
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        Mixpanel.sharedInstanceWithToken("27db6b69769b8e1c05b7b19ee4e76644")
+        let mixpanel: Mixpanel = Mixpanel.sharedInstance()
+        mixpanel.track("App Launched")
+        
+        
         return true
     }
 
